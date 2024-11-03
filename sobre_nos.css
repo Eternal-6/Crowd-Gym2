@@ -2,25 +2,26 @@ main{
     width: 100%;
     height: 100%;
 }
-.texto1{
-font-size: 25px;
-margin: top 20px;
-margin-left: 150px;
-margin-right: 150px;
-margin-bottom: 20px;
-}
+
 .imagens {
     text-align: center;
-    border-radius: 50%;
 }
-.texto2{
+.imagens img {
+    display: inline-block;
+    border-radius: 50%;
+    border-color: #F57419;
+}
+
+.texto1 {
     font-size: 25px;
     margin: top 20px;
     margin-left: 150px;
     margin-right: 150px;
     margin-bottom: 20px;
     }
-    .tabela1{
+
+/* Essa div deixa os pontos da lista mais juntos. Tem com certeza um jeito melhor de fazer isso */
+    .lista1 {
         text-align: center;
         font-size: 25px;
         margin: top 30px;
@@ -28,3 +29,11 @@ margin-bottom: 20px;
         margin-right: 150px;
         margin-bottom: 20px;
         }
+
+#laranja {
+    display: block;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: #F57419;
+}
